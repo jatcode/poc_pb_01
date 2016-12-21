@@ -1,0 +1,13 @@
+{
+  "host": "localhost",
+  "port": 3030,
+  "mongodb": "mongodb://localhost:27017/server",
+  "public": "../public/",
+  "auth": {
+    "token": {
+      "secret": "apWLHMVr1ferNL272ywNef7dQbg6gycierqq0H726Sk4GiNzTZPB3iw6VkUWdve0Vl729ePwJrwKPUBeVIdm+Q=="
+    },
+    "local": {},
+    "successRedirect": "/chat.html"
+  }
+}
