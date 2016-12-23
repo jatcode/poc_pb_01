@@ -28,7 +28,7 @@ module.exports = function(options) {
       //set the userId
       userId: user._id,
       //Add current time via getTime
-      createAt: new Date().getTime();
+      createAt: new Date().getTime()
     }
   };
 };

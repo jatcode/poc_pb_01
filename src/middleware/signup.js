@@ -11,7 +11,7 @@ module.exports = function(app) {
     })
     //lets redirect to the login page
     //
-    .then(user=> res.redirect('login.html'))
+    .then(user=> res.redirect('/login.html'))
     // if error call  error middleware
     .catch(next);
     // next();

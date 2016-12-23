@@ -29,6 +29,8 @@ const gravatarImage = email =>{
 module.exports = function() {
 // assign the new data with the gravatar image
   return function(hook) {
-    hook.data = Object.assign({},hook.data,{avatar: gravatarImage(hook.data.email)});
+    hook.data = Object.assign(
+      {},hook.data,
+      { avatar: gravatarImage(hook.data.email)});
   };
 };
